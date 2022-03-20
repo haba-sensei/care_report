@@ -1,0 +1,169 @@
+.zoom-enter-active,
+.zoom-leave-active {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    animation-name: zoom;
+}
+
+.zoom-leave-active {
+    animation-direction: reverse;
+}
+
+@keyframes zoom {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.scroll-bar-wrap {
+    width: 100%;
+}
+
+.scroll-box {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.scroll-reverse {
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.scroll-box::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+.scroll-box::-webkit-scrollbar,
+.scroll-box::-webkit-scrollbar-thumb {
+    overflow: visible;
+    border-radius: 4px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+    background: #7367f0;
+}
+
+.cover-bar {
+    position: absolute;
+    background: rgba(255, 0, 0, 0);
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 0.4em;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+/* MAGIC HAPPENS HERE */
+.scroll-bar-wrap:hover .cover-bar {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.swal2-popup {
+    background: #283046 !important;
+}
+
+
+.card-header {
+    padding: 1.5rem 1rem!important;
+}
+
+.feather,
+[data-feather] {
+    /* height: 1rem;
+    width: 1rem; */
+    display: inline-block
+}
+
+.nivel_box_icon {
+    width:30px!important;
+    height: 30px!important;
+}
+
+.inline_options {
+  display: inline-flex;
+}
+
+.areas_item_box {
+  padding-right: 0.2rem;
+}
+
+.search_full_with {
+    width: -webkit-fill-available;
+}
+
+.list-group-item-action:active {
+    color: #fff;
+    background-color: #7367f0!important;
+}
+
+.folder_color {
+    color: #e3e37f;
+}
+
+.folder_color_primary {
+    color: #68f168;
+}
+
+.folder_color_danger {
+    color: #dd3f3f;
+}
+
+.folder_center {
+    padding-top: 1.5rem;
+}
+
+.cont_ajust_102 {
+    width: 102%;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.cont_ajust_box_asset {
+    padding: 0rem!important;
+    height: 6.5rem!important;
+}
+
+
+.cont_opacity_color {
+    background: transparent;
+}
+
+.cont_opacity_box {
+    opacity: 1;
+}
+
+
+.cont_absolute_right {
+    position: absolute !important;
+    right: 7px;
+    top: 7px;
+    z-index: 1;
+}
+
+.cont_inside_asset {
+    width: 60%;
+    height: 5.5rem !important;
+    margin: 0.6rem;
+}
+
+.modal-header {
+    border-bottom: 1px solid #7367f0!important;
+}
+
+.overflow_image {
+    overflow: auto;
+}
+
+
+.file-manager-application .content-area-wrapper .file-manager-main-content .file-manager-content-body {
+height: calc(100%)!important;
+}

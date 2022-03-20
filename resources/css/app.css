@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600");
+/* vendor */
+
+@import 'vendor.css';
+@import 'apexcharts.css';
+
+/* theme */
+
+@import 'bootstrap-extended.css';
+@import 'color.css';
+
+@import 'components.css';
+@import 'dark-layout.css';
+@import 'vertical-menu.css';
+@import 'dashboard-ecommerce.css';
+@import 'chart-apex.css';
+@import 'ext-component-toastr.css';
+@import 'chat.css';
+@import 'chat-list.css';
+@import 'page-auth.css';
+@import 'toastification.css';
+@import 'contenido.css';
+/* @import 'dropzone.css'; */
+@import 'dropzone_min.css';
+@import 'apexcharts.css';
+@import 'charts.css';
+@import 'form-flat-pickr.css';
+@import 'flatpickr.min.css';
+/* custom styles */
+
+
+@import 'custom.css';
