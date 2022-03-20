@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/vlrrywof/public_html/care_report
+    - /bin/cp -R * $DEPLOYPATH
+    - cp .htaccess $DEPLOYPATH
